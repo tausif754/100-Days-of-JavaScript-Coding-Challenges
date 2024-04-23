@@ -8,4 +8,4 @@ function fibonacci(num) {
   }
 }
 console.log(fibonacci(5)); //output-5
-console.log(fibonacci(0));
+console.log(fibonacci(0)); //output-0
