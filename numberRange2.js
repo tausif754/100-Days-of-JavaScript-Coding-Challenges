@@ -1,4 +1,4 @@
-// number range recursive
+// number range recursion
 
 function numberRange(a, b, arr = []) {
   //   var arr = [];
