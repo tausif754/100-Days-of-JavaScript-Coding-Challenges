@@ -1,11 +1,11 @@
-// is Empaty object
-function isEmpatyObject(obj) {
+// is Empity object
+function isEmpityObject(obj) {
   for (let key in obj) {
     if (obj.hasOwnProperty(key)) {
-      return `it is not empaty`;
+      return `it is not empity`;
     }
   }
-  return `it is empaty`;
+  return `it is empity`;
 }
-console.log(isEmpatyObject({ name: "Tausif" })); //output-is not empaty
-console.log(isEmpatyObject({})); // output-it is empaty
+console.log(isEmpityObject({ name: "Tausif" })); //output-is not empity
+console.log(isEmpityObject({})); // output-it is empity
